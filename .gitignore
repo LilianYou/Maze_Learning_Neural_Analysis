@@ -5,3 +5,5 @@ docker/
 scripts/
 singularity/
 *.nii
+data
+nohup.out
