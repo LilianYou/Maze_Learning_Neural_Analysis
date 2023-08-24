@@ -14,17 +14,14 @@ We share data from N=96 healthy adults (44 females, 52 males; age 18-37, mean = 
 
 ## Description of the data and file structure
 
+Behavioural data are available in 'behavioral_data', which includes demographic data, behavioral data at trial level (2 files), and behavioral data at participant level (including overall navigation performance and efficiency). Note: In general, a lower score on the efficiency variable means higher efficiency, and a higher score on the accuracy variable means higher accuracy. For details of each file, please refer to Spatial Neuroscience Lab github [repostiory](https://github.com/spatialneuroscience/MLINDIV/tree/main/Preprocessing/Behavioral).
 
-Behavioural data are available xx.
+3T MRI (including fMRI and T1) data are available in folder 'behavioral_data' and were preprocessed by fMRIPrep.
 
-To note:
-	In general, a lower score on the efficiency variable means higher efficiency, and a higher score on the accuracy variable means higher accuracy.
+Scripts are available in folder 'scripts', including scripts for generating beta series files, and for mvpa analyses.
 
-Demographics.xlsx contains demographic data.
+Atlas data are nifti files and labels for subcortical atlas and cortical atlas.
 
-3T MRI data are available in zipped folders and were preprocessed by fMRIPrep.
-
-Scripts are available in zipped folder.
 
 ## Sharing/Access information
 
